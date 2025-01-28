@@ -12,7 +12,7 @@ Experiment tracking is managed through **MLflow**, which captures model performa
 The chatbot’s data orchestration is powered by **Apache Airflow**, while **FaisDB** is used as the vector store for storing product reviews and context. The system integrates three LLMs — **GPT-4o-Mini**, **Llama 3.1-70B**, and **Llama 3.1-8B** — running on four nodes to support its operations. The chatbot’s multi-agent flow is managed using **LangGraph**, a framework for orchestrating complex workflows. For ease of use, the chatbot is also available as a **Streamlit web app**, with integration capabilities for custom frontends via API, secured using **Auth Bearer Tokens**.
 
 ## Project Architecture
-![Verta Achitecture](media/Verta%20Architecture.png)
+![Verta Achitecture](media/Verta%20Architecture.png) 
 
 ## Getting Started - Guide
 To start working with the `ecom-chatbot` project, please follow the setup instructions outlined in the [Project Setup Guide](https://github.com/eCom-dev5/eCom-Chatbot/blob/dev/readme/SETUP.md).
